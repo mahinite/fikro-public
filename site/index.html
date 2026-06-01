@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fikro — Capture ideas fast. Retrieve them when it matters.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background ambient lights -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--tl"></div>
+    <div class="ambient__orb ambient__orb--br"></div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">Fikro</a>
+      <div class="nav__links">
+        <a href="#features" class="nav__link">Features</a>
+        <a href="#how" class="nav__link">How it works</a>
+        <a href="#why" class="nav__link">Why Fikro</a>
+      </div>
+      <a href="#" class="btn btn--primary btn--sm">Download</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ─── HERO ─── -->
+    <section class="hero section" id="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow">A quiet place for ideas</p>
+        <h1 class="hero__title">
+          Capture ideas fast.<br />
+          <em>Retrieve them when it matters.</em>
+        </h1>
+        <p class="hero__sub">
+          Most ideas vanish the moment they arrive — not because they weren't worth keeping,
+          but because the tools to hold them weren't ready. Fikro changes that.
+        </p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary">
+            <span class="btn__icon">↓</span>
+            Download Latest
+          </a>
+          <a href="#" class="btn btn--secondary">
+            <span class="btn__icon">⌥</span>
+            View on GitHub
+          </a>
+        </div>
+        <p class="hero__note">Free &amp; open source · macOS · Local-first</p>
+      </div>
+    </section>
+
+    <!-- ─── PROBLEM ─── -->
+    <section class="problem section" id="problem">
+      <div class="container problem__inner">
+        <div class="problem__label">The problem</div>
+        <h2 class="problem__title">
+          Ideas don't wait for<br /><em>a convenient moment.</em>
+        </h2>
+        <div class="problem__columns">
+          <p class="problem__body">
+            You're mid-conversation, mid-run, or falling asleep — and the idea arrives. By the time
+            you've unlocked your phone or opened a new note, the thread is gone.
+          </p>
+          <p class="problem__body">
+            The real graveyard isn't bad ideas. It's good ones that never had a place to land quickly enough.
+            Fikro is built around one obsession: <strong>zero friction at the moment of capture.</strong>
+          </p>
+        </div>
+        <div class="problem__stat-row">
+          <div class="problem__stat">
+            <span class="stat__num">3 sec</span>
+            <span class="stat__label">average capture time</span>
+          </div>
+          <div class="problem__divider" aria-hidden="true"></div>
+          <div class="problem__stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">local, private storage</span>
+          </div>
+          <div class="problem__divider" aria-hidden="true"></div>
+          <div class="problem__stat">
+            <span class="stat__num">∞</span>
+            <span class="stat__label">ideas, no subscription</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── FEATURES ─── -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">Features</p>
+          <h2 class="section__title">Everything a thinking<br /><em>mind needs.</em></h2>
+        </div>
+        <div class="features__grid">
+
+          <div class="card card--wide">
+            <div class="card__icon">✦</div>
+            <h3 class="card__title">Hook-first capture</h3>
+            <p class="card__body">
+              Every idea starts with a hook — a single evocative line that preserves the feeling
+              before the detail. Write the headline first, expand later.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__icon">◈</div>
+            <h3 class="card__title">Pattern organization</h3>
+            <p class="card__body">
+              Ideas naturally cluster. Fikro surfaces patterns across your captures so you can see
+              what your mind keeps returning to.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__icon">⊞</div>
+            <h3 class="card__title">Topic tagging</h3>
+            <p class="card__body">
+              Light-touch taxonomy. Tag ideas with topics and let the structure emerge from your
+              thinking, not from a pre-made hierarchy.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__icon">⟳</div>
+            <h3 class="card__title">Random idea picker</h3>
+            <p class="card__body">
+              Serendipity on demand. Surface a random idea to spark new connections, break creative
+              blocks, or revisit something long forgotten.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__icon">⌘</div>
+            <h3 class="card__title">Global hotkey system</h3>
+            <p class="card__body">
+              One keystroke from anywhere on your Mac. Fikro appears, you type, Fikro disappears.
+              Your workflow stays unbroken.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__icon">◉</div>
+            <h3 class="card__title">System tray mode</h3>
+            <p class="card__body">
+              Runs silently in the background, always ready, never in the way. A calm presence
+              that only appears when you call for it.
+            </p>
+          </div>
+
+          <div class="card card--wide card--api">
+            <div class="card__icon">⇄</div>
+            <h3 class="card__title">Local HTTP API</h3>
+            <p class="card__body">
+              Fikro speaks HTTP. Pipe ideas in from scripts, automation tools, or any app that can
+              make a local request. Your ideas, your ecosystem.
+            </p>
+            <div class="card__code">
+              <pre><code>POST localhost:7700/capture
+{ "hook": "What if silence had a texture?" }</code></pre>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── HOW IT WORKS ─── -->
+    <section class="how section" id="how">
+      <div class="container">
+        <div class="section__header">
+          <p class="eyebrow">How it works</p>
+          <h2 class="section__title">Four moments.<br /><em>One quiet loop.</em></h2>
+        </div>
+        <div class="how__steps">
+
+          <div class="step">
+            <div class="step__num">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Summon</h3>
+              <p class="step__body">
+                Press your global hotkey. Fikro surfaces instantly as a focused overlay — wherever
+                you are on your Mac.
+              </p>
+            </div>
+          </div>
+
+          <div class="step__connector" aria-hidden="true"></div>
+
+          <div class="step">
+            <div class="step__num">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Capture</h3>
+              <p class="step__body">
+                Write your hook — the one line that holds the soul of the idea. Add a detail or two
+                if they're there. Then dismiss.
+              </p>
+            </div>
+          </div>
+
+          <div class="step__connector" aria-hidden="true"></div>
+
+          <div class="step">
+            <div class="step__num">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Organise</h3>
+              <p class="step__body">
+                Fikro quietly groups your ideas by topic and pattern. No folders to manage,
+                no hierarchy to maintain.
+              </p>
+            </div>
+          </div>
+
+          <div class="step__connector" aria-hidden="true"></div>
+
+          <div class="step">
+            <div class="step__num">04</div>
+            <div class="step__content">
+              <h3 class="step__title">Retrieve</h3>
+              <p class="step__body">
+                Search when you know what you're looking for. Let the random picker surprise you
+                when you don't.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── WHY FIKRO ─── -->
+    <section class="why section" id="why">
+      <div class="container why__inner">
+        <div class="why__text">
+          <p class="eyebrow">Why Fikro</p>
+          <h2 class="why__title">
+            Built for the mind that<br /><em>never stops thinking.</em>
+          </h2>
+          <p class="why__body">
+            Most note-taking tools are built for retrieval, not capture. They assume you have time
+            to think about where something belongs before you write it down.
+          </p>
+          <p class="why__body">
+            Fikro assumes you don't. It's built for the writer mid-sentence, the builder mid-sprint,
+            the creator who knows a good idea has a half-life of seconds.
+          </p>
+          <p class="why__body">
+            Everything is local. Nothing is synced without your permission. Your ideas are yours —
+            not indexed, not analyzed, not used to train anything.
+          </p>
+          <div class="why__actions">
+            <a href="#" class="btn btn--primary">Download Fikro — it's free</a>
+          </div>
+        </div>
+        <div class="why__aside">
+          <blockquote class="testimonial">
+            <p class="testimonial__text">
+              "The first tool I've used that actually respects the speed of thought."
+            </p>
+            <footer class="testimonial__author">— Independent writer, Berlin</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial__text">
+              "I've recovered ideas I would have sworn were gone forever."
+            </p>
+            <footer class="testimonial__author">— Product builder, Tokyo</footer>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial__text">
+              "Fikro is the first app that feels like it was built by someone who actually loses ideas."
+            </p>
+            <footer class="testimonial__author">— Screenwriter, Los Angeles</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">Fikro</span>
+        <p class="footer__tagline">A quiet place for ideas.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#" class="footer__link">GitHub</a>
+        <a href="#" class="footer__link">Docs</a>
+        <a href="#" class="footer__link">Changelog</a>
+        <a href="#" class="footer__link">License</a>
+      </div>
+      <p class="footer__copy">
+        Made with restraint. Open source, always.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
