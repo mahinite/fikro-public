@@ -14,17 +14,17 @@
 
 <br/>
 
-[![Release](https://img.shields.io/github/v/release/mahinite/fikro-public?style=for-the-badge&label=Download&color=FACC15&labelColor=15181F)](https://github.com/mahinite/fikro-public/releases/latest)
+[![Release](https://img.shields.io/github/v/release/mahinite/fikro-public?style=for-the-badge&label=Download&color=FF9B3B&labelColor=15181F)](https://github.com/mahinite/fikro-public/releases/latest)
 &nbsp;
-[![Downloads](https://img.shields.io/github/downloads/mahinite/fikro-public/total?style=for-the-badge&color=FACC15&labelColor=15181F)](https://github.com/mahinite/fikro-public/releases/latest)
+[![Stars](https://img.shields.io/github/stars/mahinite/fikro-public?style=for-the-badge&color=FF9B3B&labelColor=15181F)](https://github.com/mahinite/fikro-public/stargazers)
 &nbsp;
-[![Stars](https://img.shields.io/github/stars/mahinite/fikro-public?style=for-the-badge&color=FACC15&labelColor=15181F)](https://github.com/mahinite/fikro-public/stargazers)
+[![Platform](https://img.shields.io/badge/Platform-Windows-FF9B3B?style=for-the-badge&labelColor=15181F)](https://github.com/mahinite/fikro-public/releases/latest)
 &nbsp;
-[![Platform](https://img.shields.io/badge/Platform-Windows-FACC15?style=for-the-badge&labelColor=15181F)](https://github.com/mahinite/fikro-public/releases/latest)
-&nbsp;
-[![License](https://img.shields.io/github/license/mahinite/fikro-public?style=for-the-badge&color=FACC15&labelColor=15181F)](./LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-FF9B3B?style=for-the-badge&labelColor=15181F)](./LICENSE)
 
 <br/>
+
+
 
 </div>
 
