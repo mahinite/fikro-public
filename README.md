@@ -308,14 +308,18 @@ Output: `dist/Fikro.exe` — no Python installation required to run it.
 - [x] What's New changelog modal
 
 **Upcoming**
-- [ ] Import / Export (JSON backup and restore)
+- [ ] Mobile app
+- [ ] Sync across devices
+- [ ] Team integration
+- [ ] Shared workspace support
+- [ ] Auth integration
+- [ ] Cloud based data saving
 - [ ] Chrome Web Store release
 - [ ] Drag-to-reorder ideas
 
 **Exploring**
-- [ ] macOS support
-- [ ] Markdown in notes
-- [ ] Bulk idea operations
+- [ ] Beta Launch
+- [ ] Mac Support
 
 ---
 
@@ -337,7 +341,7 @@ If Fikro helps you recover an idea that would have otherwise disappeared into a 
 
 ## License
 
-[MIT](./LICENSE) — use it, fork it, build on it.
+[MIT](./LICENSE)
 
 ---
 
