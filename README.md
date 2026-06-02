@@ -10,7 +10,7 @@
 
 **Capture ideas before they're lost. Retrieve them when you're ready to create.**
 
-*An idea capture and retrieval tool for creators, writers, and builders.*
+*A local-first idea capture and retrieval tool for creators who collect more ideas than they can act on.*
 
 <br/>
 
@@ -30,13 +30,21 @@
 
 ---
 
-Fikro is a local-first desktop app for capturing ideas the moment they happen and retrieving them when you're ready to act. Press a hotkey, write a hook, assign a pattern, save. No accounts. No cloud. Everything stays on your machine.
+Fikro is a local-first desktop app for creators who constantly collect ideas, hooks, references, and content concepts—but struggle to find the right one when it's time to create.
+
+Press a hotkey, save an idea in seconds, then let Fikro organise and resurface it later. No accounts. No cloud. Everything stays on your machine.
 
 ---
 
 ## What is Fikro?
 
-Every idea starts with a **hook** — a short line that captures the core angle before the thought disappears. You attach a **pattern** (your content category), a topic, a note, and a reference link. Ideas live in your Workspace until you're ready to act.
+Fikro is built around a simple workflow:
+
+Capture ideas quickly.
+Organise them without friction.
+Retrieve them when you're ready to create.
+
+Instead of digging through hundreds of notes, spreadsheets, bookmarks, screenshots, and saved posts, Fikro keeps everything in one searchable idea pool.
 
 When you don't know what to create next, hit **Give Me Idea**. Fikro pulls something from your active pool, skipping ideas you've already seen recently.
 
@@ -52,6 +60,8 @@ The thought in the shower. The article angle you meant to write. The video conce
 
 Fikro is built for the gap between *having* an idea and *acting* on one.
 
+The problem isn't a lack of ideas. It's having too many scattered across too many places.
+
 ---
 
 ## Quick Demo
@@ -63,8 +73,8 @@ CAPTURE    →   Press Ctrl+Shift+Space from anywhere.
 ORGANISE   →   Ideas land in your Workspace.
                Filter by pattern, search by keyword, pin what matters.
 
-RETRIEVE   →   Browse your active pool — or let Fikro pick one for you.
-               Give Me Idea surfaces something you haven't seen recently.
+RETRIEVE → Browse your ideas — or let Fikro choose one for you.
+           Stop staring at 200 ideas and wondering where to start.
 
 CREATE     →   Act on it. Mark it Used. Your list stays clean for next time.
 ```
@@ -79,7 +89,7 @@ CREATE     →   Act on it. Mark it Used. Your list stays clean for next time.
 - **Pattern tagging** — colour-coded categories (e.g. Wake-Up, Tutorial, Story). Create, rename, recolour, reorder, and delete patterns in Settings.
 - **Topic labels** — freeform tags (e.g. "AI", "Health", "Marketing") for cross-pattern filtering.
 - **Notes and reference links** — attach context and source URLs; open links directly from the card.
-- **Give Me Idea** — surfaces a random active idea, weighted toward ideas you haven't seen recently.
+- **Give Me Idea** — helps break idea overload by surfacing a random active idea from your collection, with preference toward ideas you haven't seen recently.
 - **Recent picks** — last few picks tracked in the sidebar with timestamps so you can return to them.
 - **Pin ideas** — keep important ideas at the top regardless of sort order.
 - **Multiple workspaces** — isolated environments for different projects or contexts. Switch from the sidebar instantly.
@@ -96,7 +106,7 @@ CREATE     →   Act on it. Mark it Used. Your list stays clean for next time.
 
 ### Chrome Extension
 
-- **Capture from any tab** — send ideas into Fikro without leaving Chrome.
+- **Capture without leaving the page** — save hooks, ideas, and content references directly from Chrome while you're consuming content.
 - **Auto-filled reference link** — current page URL is pre-populated when the popup opens.
 - **Pattern and workspace selection** — choose where the idea lands before saving.
 - **Live status indicator** — green when Fikro is running, red when it's not.
@@ -185,6 +195,12 @@ Mark the idea as Used. It moves to Archive automatically. Your active list stays
 Workspaces are fully isolated environments — separate ideas, patterns, and recent picks.
 
 Common uses: one workspace per project, channel, client, or creative mode. Switch from the sidebar dropdown. Create, rename, and delete workspaces at any time. The last workspace cannot be deleted.
+
+Examples:
+- YouTube content ideas
+- Business ideas
+- Client projects
+- Research and inspiration
 
 ---
 
@@ -315,7 +331,7 @@ For bugs, open an issue with a clear description and reproduction steps. For fea
 
 Built by **[Mahinite](https://github.com/mahinite)**
 
-If Fikro saves you even one good idea that would have otherwise disappeared, it has done its job. A ⭐ on the repo goes a long way.
+If Fikro helps you recover an idea that would have otherwise disappeared into a spreadsheet, bookmark folder, or forgotten note, then it has done its job.
 
 ---
 
