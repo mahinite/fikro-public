@@ -265,27 +265,6 @@ Only `hook` is required. Omit `workspace_id` to send to the active workspace. Th
 
 ---
 
-## Building From Source
-
-```bash
-# Clone the repo
-git clone https://github.com/mahinite/fikro-public.git
-cd fikro-public
-
-# Install dependencies
-pip install PySide6
-
-# Run directly
-python main.py
-
-# Build standalone EXE
-pip install pyinstaller
-pyinstaller --onefile --windowed --name "Fikro" --icon="fikro.ico" main.py
-```
-
-Output: `dist/Fikro.exe` — no Python installation required to run it.
-
----
 
 ## Roadmap
 
